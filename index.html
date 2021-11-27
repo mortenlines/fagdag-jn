@@ -1,2 +1,26 @@
-<h1>Team struts🦢</h1>
-<p>Welcome to the future of NO SQL!</p>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chess WC 2021</title>
+        <meta name="description" content="Chess">
+        <meta name="author" content="Morten Lines">
+        <link rel="stylesheet" href="node_modules/@chrisoakman/chessboardjs/dist/chessboard-1.0.0.min.css">
+    </head>
+    <body>
+        <h1>FIDE Chess World Championship 2021♟</h1>
+        <h2>Magnus Carlsen vs. Jan Nepomniachtchi</h2>
+        <p>Let's make something cool!</p>
+        <div id="myBoard" style="width: 400px"></div>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/@chrisoakman/chessboardjs/dist/chessboard-1.0.0.min.js"></script>
+        <script>
+            var position = {
+                d6: 'bK',
+                d4: 'wP',
+                e4: 'wK'
+            };
+            var board = Chessboard('myBoard', position);
+        </script>
+    </body>
+</html>
