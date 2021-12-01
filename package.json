@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@chrisoakman/chessboardjs": "^1.0.0"
+    "@chrisoakman/chessboardjs": "^1.0.0",
+    "kraken-css": "^13.0.0"
   }
 }
