@@ -1,2 +1,2 @@
 # fagdag-jn
-Lek med NoSQL.
+Oversiktsside for sjakken...
