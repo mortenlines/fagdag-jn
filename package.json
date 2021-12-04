@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "@chrisoakman/chessboardjs": "^1.0.0",
-    "kraken-css": "^13.0.0",
-    "webpack": "^5.64.4"
+    "kraken-css": "^13.0.0"
   }
 }
